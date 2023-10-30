@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color:pink;
+    padding: 10px 20px;
+  }
+
+  .image1{
+    width: 66px;
+  }
+
+  .ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li {
+    display: inline; 
+    margin-right: 20px; 
+    font-size:20px;
+    padding: 5px 8px;
+}
+
+
+.container {
+    display: flex;
+    justify-content:space-between; 
+    align-items: center; 
+    height: 60vh; 
+    background-color: #f0f0f0; 
+    padding: 0px; 
+}
+
+.containersx{
+  width: 500px;
+  margin-left: 100px;
+}
+
+h1{
+  font-size: 80px;
+  padding: 15px 0px;
+}
+
+.immagine-destra {
+    height: 400px;
+    margin-right: 50px;
+}
+
+  .button{
+    border: 2px solid rgb(129, 129, 244);
+    border-radius: 5%;
+    background-color: rgb(202, 173, 229);
+    font-size:50px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .button:focus {
+    transform: scale(1.05);
+  }
+
+.containerprogetti{
+  display: flex;
+  justify-content: space-around;
+    flex-direction: row;
+    height: auto; 
+    background-color: #f3f3ee; 
+    padding: 10px; 
+
+}
+.progetto2 {
+    background-color: #AFCAFF;
+    border-radius: 100%;
+    padding: 100px;
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+    position: relative;
+}
+
+.progetto2>img{
+  position: absolute;
+}
+
+.chisono{
+  width: 500px;
+  margin-left: 100px;
+  
+}
+
+.foto2{
+  height: 400px;
+  margin-right: 50px;
+
+}
+  .footer {
+    display: flex ;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    align-items: center;
+  }
+
